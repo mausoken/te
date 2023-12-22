@@ -1,0 +1,56 @@
+.logo {
+    position: relative;
+    top: 150px;
+    left: 650px;
+
+}
+
+
+.pass{
+    background: url(/images/sign\ in.svg) no-repeat center center;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 164px;
+    left: 600px;
+    border-radius: 10px;
+    background-color: #ffe86c;
+    font-size: x-large;
+}
+
+.email{
+    background: url(/images/sign\ in.svg) no-repeat center center;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 150px;
+    left: 600px;
+    border-radius: 10px;
+    background-color: #ffe86c;
+    border-color: #ffe86c;
+    font-size: x-large;
+    padding: 15px;
+}
+
+
+.confirmation{
+    background: url(/images/sign\ in.svg) no-repeat center center;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 175px;
+    left: 600px;
+    border-radius: 10px;
+    background-color: #ffe86c;
+    border-color: #ffe86c;
+    font-size: x-large;
+    padding: 15px;
+}
+
+.logtp{
+    position: relative;
+    top: 180px;
+    left: 850px;
+    font-size: large;
+}
+

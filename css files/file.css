@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Eczar-Regular';
+    src: url('/file.css') format('ttf');
+    /* Add additional formats for cross-browser compatibility if needed */
+}
+
+body {
+    font-family: 'Eczar-Regular', sans-serif; /* Use the custom font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    margin-bottom: 5px;
+    }
+
+    .imgcontainer{
+        position: relative;
+        top: -170px;
+        left: 825px;
+        font-size: 20px;
+        background-color: #ffe86c;
+        border-color: #ffe86c;
+        padding-left: 100px;
+        padding-right: 113px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    
+
+
+    .line {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+
+
+    .login{
+        position:relative;
+        top: 450px;
+        left: 900px;
+        size: 110%;
+    }
+
+    .bigimage{
+        position: static;
+        left: 1000px;
+        top: 600px;
+        }
+
+
+    .rec{
+        position: absolute;
+        top: 600px;
+        right: 20px;
+        z-index: -1;
+
+    }

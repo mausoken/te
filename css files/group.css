@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tab-container {
+    overflow:hidden;
+  }
+  
+  .tab {
+    background: color #e3e2de;;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 80px;
+    position: absolute;
+    top: -6px;
+  }
+  
+  .tab img {
+    max-width: 100%;
+    height: 100px;
+  }
+  
+  .content {
+    padding: 0px;
+    display: none;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 75px;
+  }
+  
+  .content.show {
+    display: block;
+  }
+
+.backround{
+    max-width: 100%;
+    justify-content: flex-start;
+    position: absolute;
+    background-size:cover ;
+    z-index: -1;
+}
+
+.groups{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+.group2{
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+
+.group3{
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}
+
+.group4{
+  position: absolute;
+  left: 800px;
+  top: 400px;
+}
+
+.group5{
+  position: absolute;
+  left: 300px;
+  top: 250px;
+
+}
+
+.upperground1{
+  position: absolute;
+  left: 67px;
+  
+}
+
+.lessonta {
+  position: absolute;
+  left: 115px;
+  top: 74px;
+
+}
